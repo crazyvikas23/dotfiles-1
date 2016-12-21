@@ -2,18 +2,20 @@
 " Next generation completion framework.
 
 let g:acp_enableAtStartup = 0
+" Use neocomplete
 let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_camel_case = 1
+" Use smartCase
 let g:neocomplete#enable_smart_case = 1
 
 " Default # of completions is 100, that's crazy.
-let g:neocomplete#max_list = 5
+let g:neocomplete#max_list = 20
 
 " Set minimum syntax keyword length.
 let g:neocomplete#auto_completion_start_length = 3
 
-" Map standard Ctrl-N completion to Ctrl-Space
-inoremap <C-Space> <C-n>
+" Tab like autocomplete. (i.e. hit tab to get autocomplete)
+inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
 " This makes sure we use neocomplete completefunc instead of
 " the one in rails.vim, otherwise this plugin will crap out.
@@ -32,3 +34,4 @@ autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 autocmd FileType ruby setlocal omnifunc=rubycomplete#Complete
+

@@ -1,6 +1,19 @@
+" Jump to any location specified by two characters
 Bundle "justinmk/vim-sneak"
+
+" Vim plugin for the_silver_searcher, 'ag', a replacement for the Perl module
+" / CLI script 'ack'
 Bundle "rking/ag.vim"
+
+" Show \"Match 123 of 456 /search term/\" in Vim searches.
 Bundle "henrik/vim-indexed-search"
+
+" Start a * or # search from a visual block
 Bundle "nelstrom/vim-visual-star-search"
+
+" VIM Plugin for doing a search and replace across many files.
 Bundle "skwp/greplace.vim"
+
+" Easily jump anywhere
 Bundle "Lokaltog/vim-easymotion"
+
