@@ -1,0 +1,2 @@
+" Go development plugin Vim
+Bundle "fatih/vim-go"
