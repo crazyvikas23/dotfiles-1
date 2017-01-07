@@ -1,1 +1,1 @@
-prompt steeef
+prompt jckdrpr_powerline
