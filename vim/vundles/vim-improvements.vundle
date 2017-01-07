@@ -1,31 +1,78 @@
-Bundle "AndrewRadev/splitjoin.vim"
-Bundle "Raimondi/delimitMate"
-Bundle "Shougo/neocomplete.git"
-Bundle "briandoll/change-inside-surroundings.vim.git"
-Bundle "godlygeek/tabular"
-Bundle "tomtom/tcomment_vim.git"
-Bundle "vim-scripts/camelcasemotion.git"
-Bundle "vim-scripts/matchit.zip.git"
-Bundle "kristijanhusak/vim-multiple-cursors"
-Bundle "Keithbsmiley/investigate.vim"
-Bundle "chrisbra/NrrwRgn"
-Bundle "christoomey/vim-tmux-navigator"
-Bundle "MarcWeber/vim-addon-mw-utils.git"
-Bundle "bogado/file-line.git"
-Bundle "mattn/webapi-vim.git"
-Bundle "sjl/gundo.vim"
-Bundle "skwp/YankRing.vim"
-Bundle "tomtom/tlib_vim.git"
-Bundle "tpope/vim-abolish"
-Bundle "tpope/vim-endwise.git"
-Bundle "tpope/vim-ragtag"
-Bundle "tpope/vim-repeat.git"
-Bundle "tpope/vim-surround.git"
-Bundle "tpope/vim-unimpaired"
-Bundle "vim-scripts/AnsiEsc.vim.git"
-Bundle "vim-scripts/AutoTag.git"
-Bundle "vim-scripts/lastpos.vim"
-Bundle "vim-scripts/sudo.vim"
-Bundle "goldfeld/ctrlr.vim"
-Bundle "editorconfig/editorconfig-vim"
+"""""""""""""""""""""""""""""""""""
+" LITTE DETAILS THAT VIM LEFT OUT "
+"""""""""""""""""""""""""""""""""""
 
+" A vim plugin that simplifies the transition between multiline and single-line code
+Bundle "AndrewRadev/splitjoin.vim"
+
+" Vim plugin, provides insert mode auto-completion for quotes, parens, brackets, etc.
+Bundle "Raimondi/delimitMate"
+
+" Next generation completion framework after neocomplcache
+Bundle "Shougo/neocomplete.git"
+
+" cit to change inside surroudings
+Bundle "briandoll/change-inside-surroundings.vim.git"
+
+" Vim script for text filtering and alignment
+Bundle "godlygeek/tabular"
+
+" An extensible & universal comment vim-plugin that also handles embedded filetypes
+Bundle "tomtom/tcomment_vim.git"
+
+" extended % matching for HTML, LaTeX, and many other languages
+Bundle "vim-scripts/matchit.zip.git"
+
+" True Sublime Text style multiple selections for Vim
+Bundle "kristijanhusak/vim-multiple-cursors"
+
+" gK to investigate word where the cursor is
+Bundle "Keithbsmiley/investigate.vim"
+
+" Seamless navigation between tmux panes and vim splits
+Bundle "christoomey/vim-tmux-navigator"
+
+" Plugin for vim to enable opening a file in a given line
+Bundle "MarcWeber/vim-addon-mw-utils.git"
+
+" open file in a line
+Bundle "bogado/file-line.git"
+
+" A git mirror of gundo.vim
+Bundle "sjl/gundo.vim"
+
+" Some utility functions for VIM
+Bundle "tomtom/tlib_vim.git"
+
+" abolish.vim: easily search for, substitute, and abbreviate multiple variants of a word
+Bundle "tpope/vim-abolish"
+
+" endwise.vim: wisely add "end" in ruby, endfunction/endif/more in vim script, etc
+Bundle "tpope/vim-endwise.git"
+
+" ragtag.vim: ghetto HTML/XML mappings (formerly allml.vim)
+Bundle "tpope/vim-ragtag"
+
+" repeat.vim: enable repeating supported plugin maps with "."
+Bundle "tpope/vim-repeat.git"
+
+" surround.vim: quoting/parenthesizing made simple
+Bundle "tpope/vim-surround.git"
+
+" unimpaired.vim: pairs of handy bracket mappings
+Bundle "tpope/vim-unimpaired"
+
+" ansi escape sequences concealed, but highlighted as specified (conceal)
+Bundle "vim-scripts/AnsiEsc.vim.git"
+
+" Last position jump improved for Easy Vim
+Bundle "vim-scripts/lastpos.vim"
+
+" Allows one to edit a file with prevledges from an unprivledged session
+Bundle "vim-scripts/sudo.vim"
+
+" Ex command history reverse-i-search for Vim
+Bundle "goldfeld/ctrlr.vim"
+
+" Interactive command execution in Vim.
+Bundle "Shougo/vimproc.vim"

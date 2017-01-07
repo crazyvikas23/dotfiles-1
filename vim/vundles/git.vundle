@@ -1,8 +1,9 @@
+"""""""""""""""
+" GIT HELPERS "
+"""""""""""""""
+
 " gitk like functionality for vim
 Bundle "gregsexton/gitv"
-
-" Create gists
-" Bundle "mattn/gist-vim"
 
 " Git wrapper for vim.
 Bundle "tpope/vim-fugitive"

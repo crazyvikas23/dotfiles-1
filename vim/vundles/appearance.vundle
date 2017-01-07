@@ -1,3 +1,7 @@
+""""""""""""""""""""""
+" PRETTY UP YOUR VIM "
+""""""""""""""""""""""
+
 " Color hex-code and color names
 Bundle "chrisbra/color_highlight.git"
 
@@ -11,12 +15,6 @@ Bundle "jby/tmux.vim.git"
 
 " Retro groove color scheme for vim
 Bundle "morhetz/gruvbox"
-
-" Setup marks on a file
-" Bundle "xsunsmile/showmarks.git"
-
-" Set of some themes
-" Bundle "chriskempson/base16-vim"
 
 " Atom One Dark theme
 Bundle "joshdick/onedark.vim"

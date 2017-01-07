@@ -1,2 +1,9 @@
+"""""""""""
+" HASKELL "
+"""""""""""
+
+" Happy Haskell programming on Vim, powered by ghc-mod
 Bundle "eagletmt/ghcmod-vim"
+
+" A completion plugin for Haskell, using ghc-mod
 Bundle "eagletmt/neco-ghc"

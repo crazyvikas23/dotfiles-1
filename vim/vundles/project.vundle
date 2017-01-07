@@ -1,3 +1,7 @@
+""""""""""""""""""""""""
+" BUFFERS SERCHERS ETC "
+""""""""""""""""""""""""
+
 " NERDTree and tabs painlessly
 Bundle "jistr/vim-nerdtree-tabs.git"
 

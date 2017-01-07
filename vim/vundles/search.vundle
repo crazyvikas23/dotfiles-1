@@ -1,3 +1,7 @@
+"""""""""""""""""""""""""""
+" SEARCH AND REPLACE MODS "
+"""""""""""""""""""""""""""
+
 " Jump to any location specified by two characters
 Bundle "justinmk/vim-sneak"
 
