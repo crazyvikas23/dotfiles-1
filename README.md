@@ -321,3 +321,8 @@ Pry offers a much better out of the box IRB experience with colors, tab completi
 as an actual debugger by installing [pry-nav](https://github.com/nixme/pry-nav).
 
 [Learn more about YADR's pry customizations and how to install](doc/pry.md)
+
+
+### Installing GIT SUPER PROMPT (Haskell only)
+If you decide to use haskell (inplace of python) then you will need to folow some extra steps as mentioned [here](http://github.com/oliverdier/zsh-git-prompt)
+
