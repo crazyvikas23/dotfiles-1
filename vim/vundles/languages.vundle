@@ -11,6 +11,3 @@ Bundle 'garbas/vim-snipmate.git'
 
 " Default snippets for a number of languages
 Bundle 'honza/vim-snippets'
-
-" Syntax checking hacks for vim
-Bundle 'scrooloose/syntastic.git'

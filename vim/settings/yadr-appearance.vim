@@ -1,31 +1,17 @@
 " Make it beautiful - colors and fonts
 
-if has("gui_running")
-  "tell the term has 256 colors
-  set t_Co=256
+" The "^[" is a single character. You enter it by pressing Ctrl+v and then ESC.
+set t_8f=[38;2;%lu;%lu;%lum
+set t_8b=[48;2;%lu;%lu;%lum
 
-  " Show tab number (useful for Cmd-1, Cmd-2.. mapping)
-  " For some reason this doesn't work as a regular set command,
-  " (the numbers don't show up) so I made it a VimEnter event
-  autocmd VimEnter * set guitablabel=%N:\ %t\ %M
-
-  set lines=60
-  set columns=190
-
-  if has("gui_gtk2")
-    set guifont=Inconsolata\ XL\ 12,Inconsolata\ 15,Monaco\ 12
-  else
-    set guifont=Inconsolata\ XL:h12,Inconsolata:h15,Monaco:h12
-  end
-else
-  let g:CSApprox_loaded = 1
-
-  " For people using a terminal that is not Solarized
-  if exists("g:yadr_using_unsolarized_terminal")
-    let g:solarized_termcolors=256
-    let g:solarized_termtrans=1
-  end
-endif
-
+" Change the color scheme here.
 colorscheme onedark
-set background=dark
+
+" Makes the background transparent. Leave these out if you're not using a transparent
+" terminal.
+highlight Normal ctermbg=NONE guibg=NONE
+highlight NonText ctermbg=NONE guibg=NONE
+
+" This is what sets vim to use 24-bit colors. It will also work for any version of neovim
+" newer than 0.1.4.
+set termguicolors
